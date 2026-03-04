@@ -1,197 +1,71 @@
-MrtPOS- Coplete Potof Sle Sytem fr Mts![MartPOSLogo](public/imge/scn-admin.png)
+MartPOS - Complete Point of Sale System for Marts
+MartPOS is a comprehensive, modern Point of Sale (POS) system specifically designed for marts, grocery stores, and retail businesses. Built with Electron, React, and TypeScript, MartPOS provides a complete solution for managing sales, inventory, purchases, and daily business operations.
 
-Aomphensive, moernPonof le (POS) system speifically desigedfor mrts, grocery stores, areail businssesElctr, Ract, ad TypScript,MrtPOS provies omplte ouofor anagg ses,invnory, rhs,  busess oeratios.##🚀 Faturs
+🚀 Features
+Core POS Functionality
+Sales Management: Complete billing system with barcode scanning, customer management, and payment processing.
+Inventory Control: Real-time stock tracking, product management, and automated stock updates.
+Purchase Management: Supplier orders, purchase returns, and stock replenishment.
+Customer Accounts: Account-based billing with credit/debit tracking.
+Quotations: Price estimation and quotation generation for customers.
 
-###Co POS Functionliy
-- **Sales Management**: Complete blliystem wit coecanning,crmanagement,aymtesing
--**nventoryContro**:Rel-imscktrcing,podct mnagmt,an utmtestckpdaes
-- **PchasManagement**: Suplie rdrs, purhase reurn,stock plenshmen
--**CutomerAccouts**: Accunt-basedblingwithdi/ebittrcking
--**Quotations**:Prie eiationand qutati geraionfor cutrs
+Advanced Features
+Barcode Scanning: Fast product lookup via barcode input.
+Keyboard Shortcuts: Efficient workflow with customizable hotkeys.
+Multi-payment Support: Cash, card, and account-based payments.
+Wholesale & Retail: Dual pricing system for different customer types.
+Real-time Dashboard: Comprehensive business analytics and reporting.
+Data Synchronization: Server sync capabilities for multi-location operations.
 
-###AdvancedFeaurs
--**BarScannng**: Fatprou ookup viabrcoe inu
-- **Kyboar Shortcuts**:Eficient wokflow with customizable htkeys
-- **Multi-payentupport**: Cas, card, n acout-basedpynt-**Woleale&Reail**:Dul pricingsym fodiffent usomerypes
-- **Ra-imDasbard**:Comehensive usiness anticsnd rporting
-- **DataSynchronizati**: Servrsyccapabiliisor mlti-locaion opeations# UserExpienc**Moen UI**:Clan,re interfac built with ShadcnUI **Dark/Light Mode**: Toggle betweenthem for comfortae usag **OfflineCapabily**: Fullfnctonaity without internet connecion
-- **Crossplatform**: Wdows,macO, and Lnux support
+User Experience
+Modern UI: Clean, responsive interface built with Shadcn UI.
+Dark/Light Mode: Toggle between themes for comfortable usage.
+Offline Capability: Full functionality without an internet connection.
+Cross-platform: Windows, macOS, and Linux support.
 
-## 📊 DashodAnalytis
+📊 Dashboard Analytics
+Get real-time insights into your business with:
+Total sales and purchase metrics.
+Order counts and values.
+Stock levels and value.
+Profit margin analysis.
+Return tracking.
+Product performance metrics.
 
-Get real-time insights int yur busiss wih:Ttsals nd puase metrics
-- Ordercunts  values Stock levelsandvluProfi magin anlysis
-- Returntraking
-- Prodcerfrmac meric🛠️ ### Frontend
-- React 19- Moer Reac wih latet featres
-- **TypeScrpt** - Type-fe evelpent
--**Vite** - Fast build tool and dev server
-- ****-Utility-first styling
-- **Shcn - eatfu,accessible UI cmpnents
-- TanStackRour** - Ty-af r
-- Qy** - Server sae management
-- **Zud** - Client te management
+🛠️ Tech Stack
+Frontend
+React 19 - Modern React with the latest features.
+TypeScript - Type-safe development.
+Vite - Fast build tool and dev server.
+Tailwind CSS - Utility-first styling.
+Shadcn UI - Beautiful, accessible UI components.
+TanStack Router - Type-safe routing.
+TanStack Query - Server state management.
+Zustand - Client state management.
+Backend & Database
+Electron - Cross-platform desktop application.
+SQLite - Local database with better-sqlite3.
+Node.js - Server-side runtime.
 
-### Baend & Database
-- **Eletrn** - Css-pform dkoappliato
-- **SQLite - Localdatabas w beer-qlite3
-- **Nodejs** - Servr-ide untime
-
-### Addiona Techolies- **Recharts - Data visualzao
-- **React Hook Form** - m management
-- **Zod** - Schea validation
-- **Date-fns** - De manipulao
-- **XLSX -xcel import/export
-- **WebSocket** - Rea-time communicato
-
-## 📁 Projec Srucure
-
-```
+📁 Project Structure
+Plaintext
 src/
-├── feature           # Main business modules
-│   ├── sales         # Sal and bil
-│   ├── products    # oduct managmen
-│   ├── nvntoy/     # Sock conrol
-│   ├── urchaes     # Puchas ords│   ├── acut/     # Customacut
-│   ├── quoaion    # Price quotions
-│   ├── dashoard/     # Anaytics dashboad
-│   ├── transactns  # Transati hitory│   ├── users/         # User management│   └── settings/      # System setings
-├──compnts/        # Shr UIcomponts
-├── lib/              # Uilty funs
-├── hooks/            #CRet hoos
-├── stores/           # Stat gement
+├── features/         # Main business modules
+│   ├── sales/        # Sales and billing
+│   ├── products/     # Product management
+│   ├── inventory/    # Stock control
+│   ├── purchases/    # Purchase orders
+│   ├── accounts/     # Customer accounts
+│   ├── quotations/   # Price quotations
+│   ├── dashboard/    # Analytics dashboard
+│   ├── transactions/ # Transaction history
+│   ├── users/        # User management
+│   └── settings/     # System settings
+├── components/       # Shared UI components
+├── lib/              # Utility functions
+├── hooks/            # Custom React hooks
+├── stores/           # State management
 └── types/            # TypeScript definitions
-```
-
-## 🚀 Gettin Start#Prereqisites
-- Node.js 16.0.0 or higher
-- npm, yar,r pnpm
-
-### Instation1. **resiory**    nomzr/POSsoftwre cdPOS-sfwa2. ****    nm istall
-   # or
-   np   # or
-   yarn install
-   3. **dvelopment**    nm ru dev
-   # or
-   np   4.**Run Electr app**
-   ```bah
-   npm run dev:electrn
-   # o
-   pnpm run dev:electron
-   ```
-
-### Buldifor Producon
-
-```bah
-#Build web ap
-npm un build
-
-# Build Elronappnpm run make
-# Package ordistributin
-npm rnpackage
-```
-
-## 💾 Database Schema
-
-The applcatiouses SQLie wit the followng main table:
--**dus**- Product catalog wit pricing
-- **invntory** - Stock evesand lcations
--**als**- Sales ransactonand blls
-- **purchases** - Purchase orders adreceipts
-- **accnts** - Customeaccutmanagement
-- **qutations** - Picequotations
-- **transati** - Fnancial tansactions
-
-##🔧 Configuration
-
-### Environment Variable
-Create a `.env` file frm `.ev.example`:
-```env
-# Databae cnfiguato
-DB_PATH=./app-data.db
-
-#Servr sync optional)
-SYNC_SERVER_URL=your-server.com
-API_KEY=your-api-key
-```
-
-### Electron Confiuraton
-Te app can e onfigured for different platfr in `ackage.json`:
-- Windws: NSIS italler and prtable veion
-- macOS: DMG package
-- Linux: AppImage and DEB package
-
-## 🎯 Key Feures i Detail
-
-### Sles & Bill
--Fas barcode-based prduct scanning
-- Cart management with quantityadjustment
-- Mltile ayment methds (cash, cad, account)
-- Discounan extra charges support
-- Receipt genration and printing
-- Ra-time stck udates
-
-### InvoryMangemet
--Autotc stock updates o sales/purchases
-- Low sock alrts and otifictios
-- Stok valu calculation
--Prdctategorization dranding
-- Blkiport/xportcapbilities
-
-###Purhase Management
-- Supplier rdr cration
-- Purcase order racking
-- Rern managent
-- Automti stck updats on reipt
-- C price trck
-
-###Reporting & Anlytic
--Ra-imedashbad with kemtics
--Sals treds ad analsis
--Profit margin caculation
--rsactionhistryand filtering- Exptcapabiliti for accoung
-
-##🔄 Data Synchrnization
-
-MatPOSuprt sever yncronzato for:
-- Mlt-locaton invntorymanagmnt
-- Centraizedporting
--Backup and disasercovery
-- Rel-time data onsistencyacrss stores
-
-## 🛡️ SecriyFeures
-
--Lcal da storage with SQLite enrypion option
-- User uheticto an rol-based access
-- Secure API comunicton
-- Data vaidai and saniizion
-- Audit tril for all rasctos
-
-## 📱 Systm Requirements#Minimm Requiremens
-- **OS**: Windws 10, macOS 10.14, o Ubuntu 18.04- **RAM**: 4GB- **Stoge**: 500MB re space
-- **Processor**: Dual-core 1.5GHz
-
-### RecommenedRequremens
-- **OS**: Windows 11, macOS 12,orUuntu 20.04
-- **RAM**: 8GB
-- **Storage**: 2GB free space
--**Procesor**: Qud-core 2.0GHz
-
-## 🤝 Contribu
-
-Contribuions are welcome! Please feel free o ubm a Pull Reqest Fr ajor changes, pleae open n issue first o discuss wht you would lke to chae. 📄This project is lse - ee th [LICENSELICENSE) file for deail.
-
-## 👨‍💻 Autr
-
-**NOMANAZHAR** - *Full-stack develper pcilizing in POS soutions*
-
-- GtHub: [@nomaazhar](http://githubnomaazhar)
-- Projct: [MartPOS](http:/ghub.com/nomanazharPOS-software
-# 📞 Support
-
-Forupprt, eature requests, or bug reports:
-- Create an issue on GiHub
-- Emil: [you-email@exampl.com]
- Documentation: [roject Wiki]
-
----**Mart**  Empowering mart and reail businesses ith moden POS tchnology. 🛒✨
+🚀 Getting Started
+Prerequisites
+Node.js 16.0.0 or higher
