@@ -1,0 +1,8 @@
+onlyBuiltDependencies:
+  - '@swc/core'
+  - '@tailwindcss/oxide'
+  - bcrypt
+  - better-sqlite3
+  - electron
+  - electron-winstaller
+  - esbuild
